@@ -4,7 +4,6 @@ status: true
 dependencies:
   module:
     - default_menu_link
-    - gatsby
     - menu_ui
 third_party_settings:
   menu_ui:
@@ -13,10 +12,6 @@ third_party_settings:
     parent: 'collections:'
   default_menu_link:
     default_menu_link_enabled: true
-  gatsby:
-    preview: false
-    iframe: false
-    target: window
 name: Collection
 type: collection
 description: 'Create a collection page which displays a grid of items - these can be sourced from a Shopify-collection or linked individually to products.'

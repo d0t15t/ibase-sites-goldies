@@ -36,3 +36,4 @@ hidden:
   field_bool: true
   field_media: true
   field_metatags: true
+  search_api_excerpt: true

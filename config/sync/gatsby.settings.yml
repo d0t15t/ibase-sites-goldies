@@ -1,3 +1,12 @@
+preview:
+  page: 0
+  collection: 0
+iframe:
+  page: 0
+  collection: 0
+target:
+  page: window
+  collection: window
 server_url: ''
 incrementalbuild_url: ''
 build_published: true
@@ -21,4 +30,3 @@ preview_entity_types:
 path_mapping: ''
 secret_key: ''
 legacy_preview_url: 0
-preview_callback_url: /__refresh
