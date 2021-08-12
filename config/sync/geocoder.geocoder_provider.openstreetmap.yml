@@ -1,0 +1,14 @@
+uuid: c8251916-4a7b-4e18-a1b2-518fe24c81f3
+langcode: en
+status: true
+dependencies: {  }
+id: openstreetmap
+label: OpenStreetMap
+plugin: openstreetmap
+configuration:
+  rootUrl: 'https://nominatim.openstreetmap.org'
+  userAgent: 'https://goldiessoap.com'
+  referer: 'https://goldiessoap.com'
+  throttle:
+    period: 2
+    limit: 1

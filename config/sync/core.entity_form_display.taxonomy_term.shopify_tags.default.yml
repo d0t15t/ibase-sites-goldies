@@ -1,0 +1,36 @@
+uuid: bdbebf46-7c14-4f3d-ba98-d3062416235b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.shopify_tags
+  module:
+    - path
+_core:
+  default_config_hash: nP-Wkd_F4frctx5FzH8KKWXQHUcxYIX3zBcPFur_-NI
+id: taxonomy_term.shopify_tags.default
+targetEntityType: taxonomy_term
+bundle: shopify_tags
+mode: default
+content:
+  menu:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  path:
+    type: path
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+hidden:
+  description: true
+  name: true

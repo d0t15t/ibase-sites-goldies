@@ -1,0 +1,12 @@
+uuid: bdcd7ae5-2d26-4099-8244-6947636bd944
+langcode: en
+status: true
+dependencies:
+  module:
+    - shopify
+_core:
+  default_config_hash: b4aNkd8OoVNiEw7IberkRwL6dixmyPVJtYj96W8vEko
+id: shopify_product.full
+label: Full
+targetEntityType: shopify_product
+cache: true

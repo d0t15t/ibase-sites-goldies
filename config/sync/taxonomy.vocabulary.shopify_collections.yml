@@ -1,0 +1,13 @@
+uuid: 91418642-07a0-4f37-aa05-5e7b91224290
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - shopify
+_core:
+  default_config_hash: QWMnf29zTYpvnk-X374j0z5TwHAHgMAkYUKp6FUacN0
+name: 'Shopify Collections'
+vid: shopify_collections
+description: 'Product collections that are dynamically pulled from Shopify.'
+weight: 0
